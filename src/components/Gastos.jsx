@@ -1,6 +1,6 @@
 import React from "react"
 
-const Gastos = (gasto) => (
+const Gastos = ({gasto}) => (
   <li className="gastos">
     <p>
       {gasto.nombre}

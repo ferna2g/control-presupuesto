@@ -1,5 +1,5 @@
 import React, { Fragment } from "react"
-import { revisarPresupuesto } from "../helpers"
+import { revisarPresupuesto } from "../helper"
 
 const ControlPresupuesto = ({ presupuesto, restante }) => {
   return (

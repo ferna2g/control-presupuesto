@@ -22,6 +22,7 @@ function App() {
         ...gastos,
         gasto
       ])
+
       //resta del presupuesto actual
       const presupuestoRestante = restante - gasto.cantidad
         guardarRestante(presupuestoRestante)
@@ -37,7 +38,8 @@ function App() {
         <h1>Control de Gasto Semanal</h1>
 
         <div className="contenido-principal contenido">
-        {mostrarpregunta ? (
+        {mostrarpregunta ?
+          (
           <Pregunta
             guardarPresupuesto={guardarPresupuesto}
             guardarRestante={guardarRestante}

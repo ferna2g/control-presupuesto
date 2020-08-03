@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import Error from "./Error"
-import shortid fro 'shortid'
+import shortid from 'shortid'
 
 const Formulario = ({guardarGasto, guardarCrearGasto}) => {
 
