@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import Error from "./Error"
+import shortid fro 'shortid'
 
 const Formulario = () => {
 
@@ -17,7 +18,13 @@ const Formulario = () => {
       return
     }
     guardarError(false)
+
     //construir el gasto
+    const gasto = {
+      nombre,
+      cantidad,
+      id: shortid.generate()
+    }
 
     //pasar el gasto al componente principal
 
